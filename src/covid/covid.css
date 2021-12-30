@@ -1,0 +1,288 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    }
+    body{
+   /* background-image: lineargradient(rgba(127, 140, 141,0.5), rgba(127, 140, 141,0.7)), url("../covid/img/covid.jpg"); */
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-color: #232324;
+    background-image: linear-gradient(to right, rgb(37, 37, 37) , rgb(73, 75, 75));
+    }
+    h1{
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 40px;
+    color: #d35400;
+    animation-name: live;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    }
+    @keyframes live{
+    0%{
+    color: #e74c3c;
+    }
+    40%{
+    color: white;
+    }
+    70%{
+    color: #e84118;
+    }
+    100%{
+    color: #95a5a6;
+    }
+    }
+    h2{
+    text-align: center;
+    color: rgb(247, 226, 134);
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 2px #8a7d65;
+}
+    #india{
+    width: 20%;
+    margin: 0 auto;
+    background: #222f3e;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px white;
+    }
+    #india h3{
+    text-align: center;
+    line-height: 45px;
+    color: rgb(231, 243, 186);
+    }
+    #india h3 span{
+    color: #222f3e;
+    animation-name: live;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    }
+    .active{
+    font-size: 25px;
+    background: #29c1f0;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgb(163, 163, 163);
+    color: #063452;
+    text-shadow: 1px 2px #9cacb6;
+    }
+    .active span{
+    font-size: 36px;
+    color: teal;
+    animation-name: live;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    }
+    .confirm{
+    font-size: 25px;
+    background: rgb(247, 228, 118);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgb(163, 163, 163);
+    color: #8f660d;
+    text-shadow: 1px 2px #dbcaa4;
+    }
+    .confirm span{
+    font-size: 36px;
+    color: #222f3e;
+    animation-name: live;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    }
+    .death {
+    font-size: 25px;
+    background: rgb(255, 104, 104);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgb(163, 163, 163);
+    color: #5f0c06;
+    text-shadow: 1px 2px #b18f8e;
+    }
+    .death span{
+    font-size: 36px;
+    color: #222f3e;
+    animation-name: live;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    }
+    .delta{
+    font-size: 25px;
+    background: rgb(158, 255, 102);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgb(163, 163, 163);
+    color: #054d31;
+    text-shadow: 1px 2px #9ec5b6;
+    }
+    .delta span{
+    font-size: 36px;
+    color: #222f3e;
+    animation-name: live;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    }
+    .recover{
+    font-size: 25px;
+    background: #f589ff;
+    box-shadow: 2px 2px 4px rgb(163, 163, 163);
+    border-radius: 8px;
+    color: #340547;
+    text-shadow: 1px 2px #bb93be;
+    }
+    .recover span{
+    font-size: 36px;
+    color: #222f3e;
+    animation-name: live;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    }
+    .state{
+    font-size: 25px;
+    background: rgb(101, 243, 200);
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgb(163, 163, 163);
+    color: #16463f;
+    text-shadow: 1px 2px #89bdb1;
+    }
+    .state span{
+    font-size: 36px;
+    color: #222f3e;
+    animation-name: live;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    }
+    .corona{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    }
+    .corona ul {
+    list-style-type: none;
+    }
+    .corona ul li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px 10px;
+    width: 30%;
+    padding: 8px 0px;
+    line-height: 40px;
+    font-weight: 500;
+    }
+    .update{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    background: transparent;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px white;
+    color: #bdc3c7;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:600;
+    }
+    .update ul{
+    list-style-type: none;
+    text-align: center;
+    }
+    .update ul li{
+    padding: 20px 0px;
+    font-size: 25px;
+    color: rgb(240, 216, 122);
+    }
+    .update ul li span{
+    font-size: 36px;
+    animation-name: update_time;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    color: #dbcaa4;
+    }
+    @keyframes update_time{
+    0%{
+    color: silver;
+    }
+    30%{
+    color: tomato;
+    }
+    70%{
+    color: teal;
+    }
+    85%{
+    color: #7f8c8d;
+    }
+    100%{
+    color: #e74c3c;
+    }
+    }
+    .header{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+    }
+    .header h4{
+    font-size: 30px;
+    color: #d35400;
+    }
+    .header p{
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 10px;
+    font-weight: 600;
+    color: #2c3e50;
+    }
+    #india span{
+    font-size: 36px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        #india span {
+            font-size: 20px;
+        }
+        .active span {
+            font-size: 20px;
+        }
+        .confirm span {
+            font-size: 20px;
+        }
+        .death span {
+            font-size: 20px;
+        }
+        .delta span {
+            font-size: 20px;
+        }
+        .recover span {
+            font-size: 20px;
+        }
+        .state span {
+            font-size: 20px;
+        }
+        .update span {
+            font-size: 20px;
+        }
+
+        .corona{
+            margin-left: 100px;
+        }
+        #india{
+            width: 40%;
+        }
+
+        .corona ul li {
+            display: inline-block;
+            text-align: center;
+            margin: 10px 10px;
+            width: 40%;
+            padding: 8px 0px;
+            line-height: 40px;
+            font-weight: 500;
+        }
+    }
